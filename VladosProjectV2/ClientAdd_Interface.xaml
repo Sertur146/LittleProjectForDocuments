@@ -1,0 +1,24 @@
+﻿<Window x:Class="VladosProjectV2.ClientAdd_Interface"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VladosProjectV2"
+        mc:Ignorable="d" Height="376" Width="442" Title="Добавление клиента">
+    <Grid>
+        <TextBox x:Name="txtSurname_toAdd" Margin="180,15,7,0" TextWrapping="Wrap"  VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtFirst_name_toAdd" Margin="180,45,7,0" TextWrapping="Wrap"  VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtMiddle_name_toAdd" Margin="180,75,7,0" TextWrapping="Wrap"  VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtPhone_number_toAdd" Margin="180,105,7,0" TextWrapping="Wrap"  VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtManager_toAdd" Margin="180,135,7,0" TextWrapping="Wrap"  VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtComment_toAdd" Margin="180,165,7,0" TextWrapping="Wrap" FontSize="16" Height="160" VerticalAlignment="Top"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Контактный номер" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Ведущий менеджер" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Комментарий&#xD;&#xA;специалиста" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" FontSize="16" Height="55"/>
+        <Button x:Name="btnClientAdd" Content="Сохранить" HorizontalAlignment="Left" Margin="12,216,0,0" VerticalAlignment="Top" Height="42" Width="91" Click="btnClientAdd_Click"/>
+
+    </Grid>
+</Window>
